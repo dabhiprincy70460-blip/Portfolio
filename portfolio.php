@@ -3,16 +3,17 @@
 // You can split this into header.php, footer.php, etc. later
 
 $name = "Dabhi Princy";
-$role = "PHP Developer";
+$role = "PHP Developer, Back End Developer";
 $email = "dabhiprincy70460@gmail.com";
-$linkedin = "https://www.linkedin.com/in/yourprofile";
-$github = "https://github.com/yourusername";
+$linkedin = "https://www.linkedin.com/in/princy-dabhi-patel-755262381/";
+$github = "https://github.com/dabhiprincy70460-blip
+";
 
 $skills = [
     "PHP",
     "MySQL",
     "HTML5",
-    "CSS3",
+    "CSS",
     "JavaScript",
     "Bootstrap",
     "Git & GitHub"
@@ -27,7 +28,7 @@ $projects = [
     [
         "title" => "Portfolio Website",
         "desc" => "Personal portfolio to showcase skills and projects.",
-        "tech" => "PHP, HTML, CSS"
+        "tech" => "PHP, HTML, CSS , Mysql"
     ]
 ];
 ?>
@@ -122,8 +123,8 @@ $projects = [
         <h2>Contact</h2>
         <p>Email: <a href="mailto:<?php echo $email; ?>"><?php echo $email; ?></a></p>
         <p>
-            <a href="<?php echo $linkedin; ?>" target="_blank">LinkedIn</a> |
-            <a href="<?php echo $github; ?>" target="_blank">GitHub</a>
+            <a href="<?php echo $linkedin; ?>" target="https://www.linkedin.com/in/princy-dabhi-patel-755262381/">LinkedIn</a> |
+            <a href="<?php echo $github; ?>" target="https://github.com/dabhiprincy70460-blip">GitHub</a>
         </p>
     </div>
 </section>
@@ -137,3 +138,4 @@ $projects = [
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
