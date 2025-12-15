@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Root Variables */
+:root {
+    --primary: #173665;
+    --dark: #a0afb1;
+    --light: #2d5680;
+    --text: #374151;
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--text);
+    background: var(--light);
+    line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: var(--primary) !important;
+}
+
+/* Hero Section */
+.hero {
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #0d6efd, #2563eb);
+    color: #fff;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.hero .btn {
+    margin-top: 25px;
+    padding: 10px 30px;
+    font-weight: 500;
+}
+
+/* Sections */
+.section {
+    padding: 80px 0;
+}
+
+.section h2 {
+    font-weight: 600;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.section h2::after {
+    content: '';
+    width: 60px;
+    height: 3px;
+    background: var(--primary);
+    display: block;
+    margin-top: 8px;
+}
+
+/* About */
+#about p {
+    max-width: 800px;
+}
+
+/* Skills */
+#skills .card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+    font-weight: 500;
+}
+
+#skills .card:hover {
+    transform: translateY(-5px);
+    background: var(--primary);
+    color: #fff;
+}
+
+/* Projects */
+#projects .card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    transition: 0.3s ease;
+}
+
+#projects .card:hover {
+    transform: translateY(-8px);
+}
+
+#projects h5 {
+    font-weight: 600;
+}
+
+/* Contact */
+#contact a {
+    color: var(--primary);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background: var(--dark);
+    color: #9ca3af;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+
+    .section {
+        padding: 60px 15px;
+    }
+}
